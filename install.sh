@@ -17,6 +17,7 @@ rm -rfv $HOME/.vim/settings/neocomplete.vim
 rm -rfv $HOME/.vim/settings/disable-arrowkeys.vim
 ln -snfv $YADR/vim/guifont.vim $HOME/.vim/settings/guifont.rpanachi.vim
 ln -snfv $YADR/vim/syntastic.vim $HOME/.vim/settings/syntastic.rpanachi.vim
+ln -snfv $YADR/vim/guifont.vim $HOME/.vim/settings/zzzz_guifont.rpanachi.vim
 
 # git
 ln -snfv $YADR/git/gitconfig $HOME/.gitconfig.user

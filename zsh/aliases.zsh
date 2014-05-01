@@ -1,0 +1,15 @@
+alias grunt="node_modules/grunt-cli/bin/grunt"
+alias redis.server="redis-server /usr/local/etc/redis.conf --daemonize yes"
+alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
+alias rm="rm -v $1"
+alias proxy="ssh -Nv deploy@homolog.akatus.com -D 8080"
+alias router="ssh root@192.168.1.1"
+
+# Akatus
+alias resque01="ssh deploy@resque01.akatus.com"
+alias aut01="ssh deploy@aut01.akatus.com"
+alias aut02="ssh deploy@aut02.akatus.com"
+alias backoffice="ssh deploy@backoffice.akatus.com"
+alias homolog="ssh deploy@homolog.akatus.com"
+alias homolog2="ssh deploy@homolog2.akatus.com"
+alias homolog4="ssh deploy@homolog4.akatus.com"

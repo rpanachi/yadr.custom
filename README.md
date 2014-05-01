@@ -7,8 +7,8 @@
 ### How to use
 
 ```
-git clone git@github.com:rpanachi/.yadr.rpanachi.git $HOME/.yadr.rpanachi
-cd $HOME/.yadr.rpanachi
+git clone git@github.com:rpanachi/.yadr.custom.git $HOME/.yadr.custom
+cd $HOME/.yadr.custom
 ./install.sh
 ```
 

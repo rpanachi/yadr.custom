@@ -1,7 +1,11 @@
 YADR=$HOME/.yadr.rpanachi
 
-# zsh
+# remove vimify
 rm -rfv $HOME/.yadr/vimify
+rm -v $HOME/.inputrc
+rm -v $HOME/.editrc
+
+# zsh
 rm -rfv $HOME/.yadr/zsh/key-bindings.zsh
 ln -snfv $YADR/zsh/aliases.zsh $HOME/.yadr/zsh/aliases.rpanachi.zsh
 ln -snfv $YADR/zsh/autojump.zsh $HOME/.yadr/zsh/autojump.rpanachi.zsh

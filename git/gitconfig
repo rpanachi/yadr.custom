@@ -1,3 +1,2 @@
-[user]
-  name = Rodrigo Panachi
-  email = rodrigopanachi@gmail.com
+[alias]
+  sed = ! git grep -z --full-name -l '.' | xargs -0 sed -i '' -e

@@ -1,2 +1,6 @@
 [alias]
+  # usage: git sed 's/foo/bar/g'
   sed = ! git grep -z --full-name -l '.' | xargs -0 sed -i '' -e
+
+  # usage: git cleanup
+  cleanup = ! git branch --merged | grep  -v '\\*\\|master' | xargs -n 1 git branch -d

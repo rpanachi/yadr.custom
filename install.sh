@@ -1,3 +1,4 @@
+#!/bin/sh
 YADR=$HOME/.yadr.custom
 
 # remove vimify
@@ -22,7 +23,7 @@ ln -snfv $YADR/vim/guifont.vim $HOME/.vim/settings/zzzz_guifont.custom.vim
 ln -snfv $YADR/git/gitconfig $HOME/.gitconfig.user
 read -p "Enter your git name: " NAME
 read -p "Enter yout git email: " EMAIL
-if [ $NAME ] && [ $EMAIL ]
+if [[ -n "$NAME" ]] && [[ -n "$EMAIL" ]]
 then
   git config --global user.name $NAME
   git config --global user.email $EMAIL

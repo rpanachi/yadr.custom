@@ -21,6 +21,9 @@ ln -snfv $YADR/vim/guifont.vim $HOME/.vim/settings/zzzz_guifont.custom.vim
 ln -snfv $YADR/vim/vimrc.before $HOME/.vimrc.before
 ln -snfv $YADR/vim/vimrc.after $HOME/.vimrc.after
 
+# tmux
+ln -snfv $YADR/tmux/tmux.conf $HOME/.tmux.conf.user
+
 # git
 ln -snfv $YADR/git/gitconfig $HOME/.gitconfig.user
 read -p "Enter your git name: " NAME

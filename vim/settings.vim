@@ -14,6 +14,3 @@ endif
 
 " Disable Rubocop Checker
 let g:loaded_syntastic_ruby_rubocop_checker = 0
-
-" cw working with underscore ex user_id
-set iskeyword-=_

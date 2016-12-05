@@ -1,7 +1,7 @@
 # bin
 alias grunt="node_modules/grunt-cli/bin/grunt"
 alias redis.server="redis-server /usr/local/etc/redis.conf --daemonize yes"
-alias postgres.server="pg_ctl -D /usr/local/var/postgres"
+alias postgres.server="pg_ctl -D /usr/local/var/postgres start"
 alias rm="rm -iv $1"
 
 # dev

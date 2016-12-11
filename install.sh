@@ -12,8 +12,7 @@ ln -snfv $YADR/zsh/aliases.zsh $HOME/.yadr/zsh/aliases.custom.zsh
 ln -snfv $YADR/zsh/key-bindings.zsh $HOME/.yadr/zsh/zzzz_key-bindings.zsh
 
 # vim
-# rm -rfv $HOME/.vim/settings/neocomplete.vim
-# rm -rfv $HOME/.vim/settings/disable-arrowkeys.vim
+rm -rfv $HOME/.vim/settings/neocomplete.vim
 ln -snfv $YADR/vim/vimrc.before $HOME/.vimrc.before
 ln -snfv $YADR/vim/vimrc.after $HOME/.vimrc.after
 

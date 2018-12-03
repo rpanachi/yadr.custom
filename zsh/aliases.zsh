@@ -11,4 +11,8 @@ alias be="bundle exec"
 alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
 alias myip="curl ifconfig.me"
 
+# unaliase
+unalias mvim
+alias mvim="/Applications/MacVim.app/Contents/bin/mvim"
+
 # stuff
